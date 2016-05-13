@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CheckStyle-IDEA">
-    <option name="configuration">
-      <map>
-        <entry key="location-0" value="CLASSPATH:/sun_checks.xml:The default CheckStyle rules" />
-      </map>
-    </option>
-  </component>
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
     <resourceExtensions />
@@ -27,22 +20,465 @@
     </annotationProcessing>
   </component>
   <component name="CopyrightManager" default="" />
-  <component name="DependencyValidationManager">
-    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  <component name="DBNavigator.Project.DataEditorManager">
+    <record-view-column-sorting-type value="BY_INDEX" />
+    <value-preview-text-wrapping value="false" />
+    <value-preview-pinned value="false" />
   </component>
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="DBNavigator.Project.DataExportManager">
+    <export-instructions>
+      <create-header value="true" />
+      <quote-values-containing-separator value="true" />
+      <quote-all-values value="false" />
+      <value-separator value="" />
+      <file-name value="" />
+      <file-location value="" />
+      <scope value="GLOBAL" />
+      <destination value="FILE" />
+      <format value="EXCEL" />
+    </export-instructions>
+  </component>
+  <component name="DBNavigator.Project.DatabaseBrowserManager">
+    <autoscroll-to-editor value="false" />
+    <autoscroll-from-editor value="true" />
+    <show-object-properties value="true" />
+    <loaded-nodes />
+  </component>
+  <component name="DBNavigator.Project.MethodExecutionManager">
+    <method-browser />
+    <execution-history>
+      <group-entries value="true" />
+      <execution-inputs />
+    </execution-history>
+    <argument-values-cache />
+  </component>
+  <component name="DBNavigator.Project.ObjectDependencyManager">
+    <last-used-dependency-type value="INCOMING" />
+  </component>
+  <component name="DBNavigator.Project.ObjectQuickFilterManager">
+    <last-used-operator value="EQUAL" />
+    <filters />
+  </component>
+  <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
+    <recently-used-interfaces />
+  </component>
+  <component name="DBNavigator.Project.Settings">
+    <connections />
+    <browser-settings>
+      <general>
+        <display-mode value="TABBED" />
+        <navigation-history-size value="100" />
+        <show-object-details value="false" />
+      </general>
+      <filters>
+        <object-type-filter>
+          <object-type name="SCHEMA" enabled="true" />
+          <object-type name="USER" enabled="true" />
+          <object-type name="ROLE" enabled="true" />
+          <object-type name="PRIVILEGE" enabled="true" />
+          <object-type name="CHARSET" enabled="true" />
+          <object-type name="TABLE" enabled="true" />
+          <object-type name="VIEW" enabled="true" />
+          <object-type name="MATERIALIZED VIEW" enabled="true" />
+          <object-type name="NESTED TABLE" enabled="true" />
+          <object-type name="COLUMN" enabled="true" />
+          <object-type name="INDEX" enabled="true" />
+          <object-type name="CONSTRAINT" enabled="true" />
+          <object-type name="TRIGGER" enabled="true" />
+          <object-type name="TRIGGER" enabled="true" />
+          <object-type name="SYNONYM" enabled="true" />
+          <object-type name="SEQUENCE" enabled="true" />
+          <object-type name="PROCEDURE" enabled="true" />
+          <object-type name="FUNCTION" enabled="true" />
+          <object-type name="PACKAGE" enabled="true" />
+          <object-type name="TYPE" enabled="true" />
+          <object-type name="TYPE ATTRIBUTE" enabled="true" />
+          <object-type name="ARGUMENT" enabled="true" />
+          <object-type name="DIMENSION" enabled="true" />
+          <object-type name="CLUSTER" enabled="true" />
+          <object-type name="DBLINK" enabled="true" />
+        </object-type-filter>
+      </filters>
+      <sorting>
+        <object-type name="COLUMN" sorting-type="NAME" />
+        <object-type name="FUNCTION" sorting-type="NAME" />
+        <object-type name="PROCEDURE" sorting-type="NAME" />
+        <object-type name="ARGUMENT" sorting-type="POSITION" />
+      </sorting>
+    </browser-settings>
+    <navigation-settings>
+      <lookup-filters>
+        <lookup-objects>
+          <object-type name="SCHEMA" enabled="true" />
+          <object-type name="USER" enabled="false" />
+          <object-type name="ROLE" enabled="false" />
+          <object-type name="PRIVILEGE" enabled="false" />
+          <object-type name="CHARSET" enabled="false" />
+          <object-type name="TABLE" enabled="true" />
+          <object-type name="VIEW" enabled="true" />
+          <object-type name="MATERIALIZED VIEW" enabled="true" />
+          <object-type name="NESTED TABLE" enabled="false" />
+          <object-type name="COLUMN" enabled="false" />
+          <object-type name="INDEX" enabled="true" />
+          <object-type name="CONSTRAINT" enabled="true" />
+          <object-type name="TRIGGER" enabled="true" />
+          <object-type name="TRIGGER" enabled="true" />
+          <object-type name="SYNONYM" enabled="false" />
+          <object-type name="SEQUENCE" enabled="true" />
+          <object-type name="PROCEDURE" enabled="true" />
+          <object-type name="FUNCTION" enabled="true" />
+          <object-type name="PACKAGE" enabled="true" />
+          <object-type name="TYPE" enabled="true" />
+          <object-type name="TYPE ATTRIBUTE" enabled="false" />
+          <object-type name="ARGUMENT" enabled="false" />
+          <object-type name="DIMENSION" enabled="false" />
+          <object-type name="CLUSTER" enabled="false" />
+          <object-type name="DBLINK" enabled="true" />
+        </lookup-objects>
+        <force-database-load value="false" />
+        <prompt-connection-selection value="true" />
+        <prompt-schema-selection value="true" />
+      </lookup-filters>
+    </navigation-settings>
+    <dataset-grid-settings>
+      <general>
+        <enable-zooming value="true" />
+      </general>
+      <sorting>
+        <nulls-first value="true" />
+        <max-sorting-columns value="4" />
+      </sorting>
+      <tracking-columns>
+        <columnNames value="" />
+        <visible value="true" />
+        <editable value="false" />
+      </tracking-columns>
+    </dataset-grid-settings>
+    <dataset-editor-settings>
+      <text-editor-popup>
+        <active value="false" />
+        <active-if-empty value="false" />
+        <data-length-threshold value="100" />
+        <popup-delay value="1000" />
+      </text-editor-popup>
+      <values-list-popup>
+        <show-popup-button value="true" />
+        <element-count-threshold value="1000" />
+        <data-length-threshold value="250" />
+      </values-list-popup>
+      <general>
+        <fetch-block-size value="100" />
+        <fetch-timeout value="30" />
+        <trim-whitespaces value="true" />
+        <convert-empty-strings-to-null value="true" />
+        <select-content-on-cell-edit value="true" />
+        <large-value-preview-active value="true" />
+        <load-view-data-active value="false" />
+      </general>
+      <filters>
+        <prompt-filter-dialog value="true" />
+        <default-filter-type value="BASIC" />
+      </filters>
+      <qualified-text-editor text-length-threshold="300">
+        <content-types>
+          <content-type name="Text" enabled="true" />
+          <content-type name="Properties" enabled="true" />
+          <content-type name="XML" enabled="true" />
+          <content-type name="DTD" enabled="true" />
+          <content-type name="HTML" enabled="true" />
+          <content-type name="XHTML" enabled="true" />
+          <content-type name="CSS" enabled="true" />
+          <content-type name="Java" enabled="true" />
+          <content-type name="SQL" enabled="true" />
+          <content-type name="PL/SQL" enabled="true" />
+          <content-type name="JPA QL" enabled="true" />
+          <content-type name="JavaScript" enabled="true" />
+          <content-type name="JSP" enabled="true" />
+          <content-type name="JSPx" enabled="true" />
+          <content-type name="Groovy" enabled="true" />
+          <content-type name="FTL" enabled="true" />
+          <content-type name="TML" enabled="true" />
+          <content-type name="GSP" enabled="true" />
+          <content-type name="ASP" enabled="true" />
+          <content-type name="VTL" enabled="true" />
+          <content-type name="YAML" enabled="true" />
+          <content-type name="Flex" enabled="true" />
+          <content-type name="Bash" enabled="true" />
+          <content-type name="Manifest" enabled="true" />
+        </content-types>
+      </qualified-text-editor>
+      <record-navigation>
+        <navigation-target value="VIEWER" />
+      </record-navigation>
+    </dataset-editor-settings>
+    <code-editor-settings>
+      <general>
+        <show-object-navigation-gutter value="false" />
+        <show-spec-declaration-navigation-gutter value="true" />
+      </general>
+      <confirmations>
+        <save-changes value="false" />
+        <revert-changes value="true" />
+      </confirmations>
+    </code-editor-settings>
+    <code-completion-settings>
+      <filters>
+        <basic-filter>
+          <filter-element type="RESERVED_WORD" id="keyword" selected="true" />
+          <filter-element type="RESERVED_WORD" id="function" selected="false" />
+          <filter-element type="RESERVED_WORD" id="parameter" selected="false" />
+          <filter-element type="RESERVED_WORD" id="datatype" selected="true" />
+          <filter-element type="RESERVED_WORD" id="exception" selected="true" />
+          <filter-element type="OBJECT" id="schema" selected="true" />
+          <filter-element type="OBJECT" id="role" selected="true" />
+          <filter-element type="OBJECT" id="user" selected="true" />
+          <filter-element type="OBJECT" id="privilege" selected="true" />
+          <user-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="false" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </user-schema>
+          <public-schema>
+            <filter-element type="OBJECT" id="table" selected="false" />
+            <filter-element type="OBJECT" id="view" selected="false" />
+            <filter-element type="OBJECT" id="materialized view" selected="false" />
+            <filter-element type="OBJECT" id="index" selected="false" />
+            <filter-element type="OBJECT" id="constraint" selected="false" />
+            <filter-element type="OBJECT" id="trigger" selected="false" />
+            <filter-element type="OBJECT" id="synonym" selected="false" />
+            <filter-element type="OBJECT" id="sequence" selected="false" />
+            <filter-element type="OBJECT" id="procedure" selected="false" />
+            <filter-element type="OBJECT" id="function" selected="false" />
+            <filter-element type="OBJECT" id="package" selected="false" />
+            <filter-element type="OBJECT" id="type" selected="false" />
+            <filter-element type="OBJECT" id="dimension" selected="false" />
+            <filter-element type="OBJECT" id="cluster" selected="false" />
+            <filter-element type="OBJECT" id="dblink" selected="false" />
+          </public-schema>
+          <any-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="true" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </any-schema>
+        </basic-filter>
+        <extended-filter>
+          <filter-element type="RESERVED_WORD" id="keyword" selected="true" />
+          <filter-element type="RESERVED_WORD" id="function" selected="true" />
+          <filter-element type="RESERVED_WORD" id="parameter" selected="true" />
+          <filter-element type="RESERVED_WORD" id="datatype" selected="true" />
+          <filter-element type="RESERVED_WORD" id="exception" selected="true" />
+          <filter-element type="OBJECT" id="schema" selected="true" />
+          <filter-element type="OBJECT" id="user" selected="true" />
+          <filter-element type="OBJECT" id="role" selected="true" />
+          <filter-element type="OBJECT" id="privilege" selected="true" />
+          <user-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="true" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </user-schema>
+          <public-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="true" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </public-schema>
+          <any-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="true" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </any-schema>
+        </extended-filter>
+      </filters>
+      <sorting enabled="true">
+        <sorting-element type="RESERVED_WORD" id="keyword" />
+        <sorting-element type="RESERVED_WORD" id="datatype" />
+        <sorting-element type="OBJECT" id="column" />
+        <sorting-element type="OBJECT" id="table" />
+        <sorting-element type="OBJECT" id="view" />
+        <sorting-element type="OBJECT" id="materialized view" />
+        <sorting-element type="OBJECT" id="index" />
+        <sorting-element type="OBJECT" id="constraint" />
+        <sorting-element type="OBJECT" id="trigger" />
+        <sorting-element type="OBJECT" id="synonym" />
+        <sorting-element type="OBJECT" id="sequence" />
+        <sorting-element type="OBJECT" id="procedure" />
+        <sorting-element type="OBJECT" id="function" />
+        <sorting-element type="OBJECT" id="package" />
+        <sorting-element type="OBJECT" id="type" />
+        <sorting-element type="OBJECT" id="dimension" />
+        <sorting-element type="OBJECT" id="cluster" />
+        <sorting-element type="OBJECT" id="dblink" />
+        <sorting-element type="OBJECT" id="schema" />
+        <sorting-element type="OBJECT" id="role" />
+        <sorting-element type="OBJECT" id="user" />
+        <sorting-element type="RESERVED_WORD" id="function" />
+        <sorting-element type="RESERVED_WORD" id="parameter" />
+      </sorting>
+      <format>
+        <enforce-code-style-case value="true" />
+      </format>
+    </code-completion-settings>
+    <execution-engine-settings>
+      <statement-execution>
+        <fetch-block-size value="100" />
+        <execution-timeout value="20" />
+        <debug-execution-timeout value="600" />
+        <prompt-execution value="false" />
+      </statement-execution>
+      <script-execution>
+        <command-line-interfaces />
+        <execution-timeout value="300" />
+      </script-execution>
+      <method-execution>
+        <execution-timeout value="30" />
+        <debug-execution-timeout value="600" />
+        <parameter-history-size value="10" />
+      </method-execution>
+    </execution-engine-settings>
+    <operation-settings>
+      <transactions>
+        <uncommitted-changes>
+          <on-project-close value="ASK" />
+          <on-disconnect value="ASK" />
+          <on-autocommit-toggle value="ASK" />
+        </uncommitted-changes>
+        <multiple-uncommitted-changes>
+          <on-commit value="ASK" />
+          <on-rollback value="ASK" />
+        </multiple-uncommitted-changes>
+      </transactions>
+      <session-browser>
+        <disconnect-session value="ASK" />
+        <kill-session value="ASK" />
+        <reload-on-filter-change value="false" />
+      </session-browser>
+      <compiler>
+        <compile-type value="KEEP" />
+        <compile-dependencies value="ASK" />
+        <always-show-controls value="false" />
+      </compiler>
+      <debugger>
+        <debugger-type value="JDWP" />
+        <use-generic-runners value="true" />
+      </debugger>
+    </operation-settings>
+    <ddl-file-settings>
+      <extensions>
+        <mapping file-type-id="VIEW" extensions="vw" />
+        <mapping file-type-id="TRIGGER" extensions="trg" />
+        <mapping file-type-id="PROCEDURE" extensions="prc" />
+        <mapping file-type-id="FUNCTION" extensions="fnc" />
+        <mapping file-type-id="PACKAGE" extensions="pkg" />
+        <mapping file-type-id="PACKAGE_SPEC" extensions="pks" />
+        <mapping file-type-id="PACKAGE_BODY" extensions="pkb" />
+        <mapping file-type-id="TYPE" extensions="tpe" />
+        <mapping file-type-id="TYPE_SPEC" extensions="tps" />
+        <mapping file-type-id="TYPE_BODY" extensions="tpb" />
+      </extensions>
+      <general>
+        <lookup-ddl-files value="true" />
+        <create-ddl-files value="false" />
+        <synchronize-ddl-files value="true" />
+        <use-qualified-names value="false" />
+        <make-scripts-rerunnable value="true" />
+      </general>
+    </ddl-file-settings>
+    <general-settings>
+      <regional-settings>
+        <date-format value="MEDIUM" />
+        <number-format value="UNGROUPED" />
+        <locale value="SYSTEM_DEFAULT" />
+        <use-custom-formats value="false" />
+      </regional-settings>
+      <environment>
+        <environment-types>
+          <environment-type id="development" name="Development" description="Development environment" color="-2430209/-12296320" />
+          <environment-type id="integration" name="Integration" description="Integration environment" color="-2621494/-12163514" />
+          <environment-type id="production" name="Production" description="Productive environment" color="-11574/-10271420" />
+          <environment-type id="other" name="Other" description="" color="-1576/-10724543" />
+        </environment-types>
+        <visibility-settings>
+          <connection-tabs value="true" />
+          <dialog-headers value="true" />
+          <object-editor-tabs value="true" />
+          <script-editor-tabs value="false" />
+          <execution-result-tabs value="true" />
+        </visibility-settings>
+      </environment>
+    </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
+  </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
-  </component>
-  <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$" />
   </component>
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="disableWrapperSourceDistributionNotification" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/2.10/libexec" />
+        <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -51,7 +487,6 @@
       </GradleProjectSettings>
     </option>
   </component>
-  <component name="IdProvider" IDEtalkID="AE56136CBB40A29241F60D344728FA1E" />
   <component name="Palette2">
     <group name="Swing">
       <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
@@ -173,387 +608,449 @@
       </item>
     </group>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithms.iml" filepath="$PROJECT_DIR$/algorithms.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/BST.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/IntervalST.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/RectHV.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/RedBlackBST.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/algorithms/BST.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/algorithms/Deque.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/algorithms/IntervalST.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/algorithms/RedBlackBST.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/medianOfTwoSortedArrays/ConstructBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/medianOfTwoSortedArrays/FilteringIterator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/medianOfTwoSortedArrays/IsBSTBalanced.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/medianOfTwoSortedArrays/Iterator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/medianOfTwoSortedArrays/KnightWalk.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/medianOfTwoSortedArrays/KthSmallest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/medianOfTwoSortedArrays/LeafPathsWithSum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/medianOfTwoSortedArrays/MedianOfTwoSortedArrays.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/medianOfTwoSortedArrays/MinBSTDepth.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/medianOfTwoSortedArrays/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/medianOfTwoSortedArrays/WordLadder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/medianOfTwoSortedArrays/WordSearchBoard.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/medianofstream/MedianOfStream.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/CombinationSum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/ConstructBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/ExcelNumberToTitle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/ExcelTitleToNumber.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/Interval.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/IntervalMerge.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/IsBSTBalanced.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/KthSmallest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/LargestNumber.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/LeafPathsWithSum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/MaxSet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/MedianOfStream.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/MedianOfTwoSortedArrays.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/MinBSTDepth.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/PrettyPrint.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/ReverseBetween.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/SearchRange.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/UniquePaths.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/problems/WordSearchBoard.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/allServices/src/main/java/com/quickbase/corews/managers/ReportManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/allServices/src/main/java/com/quickbase/corews/services/schema/utils/AppEnforcer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/allServices/src/main/java/com/quickbase/corews/services/schema/utils/a.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/allServices/src/test/java/com/quickbase/corews/api/controllers/OperationsControllerUnitTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/allServices/src/test/java/com/quickbase/corews/api/controllers/record/query/DateReportAndQueryIntegrationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/allServices/src/test/java/com/quickbase/corews/api/permissions/DataPermissionIntegrationProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/allServices/src/test/java/com/quickbase/corews/api/permissions/GenericFieldPermissionIntegrationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/allServices/src/test/java/com/quickbase/corews/api/permissions/PermissionsDataGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/allServices/src/test/java/com/quickbase/corews/api/permissions/RecordPermissionsIntegrationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/allServices/src/test/java/com/quickbase/corews/api/permissions/ReportPermissionsIntegrationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/apiModels/src/main/java/com/quickbase/api/models/Table.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/apiModels/src/test/java/com/quickbase/api/models/TableUnitTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/apiModels/src/test/java/com/quickbase/api/models/report/ReportGroupUnitTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/apiModels/src/test/java/com/quickbase/api/utils/ApiTestUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/coherenceCommon/src/main/java/com/quickbase/coherence/persistence/TableUpdateManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/coherenceCommon/src/main/resources/tangosol-coherence-override.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/coherenceCommon/src/test/java/com/quickbase/coherence/persistence/b.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/common/src/main/resources/config-bean.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/common/src/main/resources/core.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/common/src/test/java/com/quickbase/common/models/domain/InternalReportUnitTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/common/src/test/java/com/quickbase/common/utils/CommonTestUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/coreValidators/src/test/java/com/quickbase/corews/predicates/date/AbstractDateFieldPredicate.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/coreValidators/src/test/java/com/quickbase/corews/validators/RecordServiceValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/dtsTransformService/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/migration/src/main/java/com/quickbase/migration/components/RealmDirectoryMigration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/migration/src/test/java/com/quickbase/migration/components/ApplicationRoleMigrationUnitTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/migration/src/test/java/com/quickbase/migration/components/ApplicationSchemaMigrationUnitTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/migration/src/test/java/com/quickbase/migration/components/RecordMigrationUnitTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/migration/src/test/java/com/quickbase/migration/components/ReportMigrationUnitTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/migration/src/test/java/com/quickbase/migration/legacy/services/LegacyUserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/migration/src/test/resources/migration-functional.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/migration/src/test/resources/migration-integration.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dev/QuickBase/qbmodel/src/main/java/com/quickbase/model/IField.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="libraryTable">
-    <library name="Gradle: algs4-1.0">
+    <library name="Gradle: junit:junit:4.11">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.coursera.algs4.algs4/algs4/1.0/8937251c411badca66034e0b93a18e1ab2ef72e5/algs4-1.0.jar!/" />
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.coursera.algs4.algs4/algs4/1.0/8937251c411badca66034e0b93a18e1ab2ef72e5/algs4-1.0.jar!/" />
+        <root url="jar://$USER_HOME$/dev/gradle-2.9/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.coursera.algs4.algs4/algs4/1.0/8937251c411badca66034e0b93a18e1ab2ef72e5/algs4-1.0.jar!/" />
+        <root url="jar://$USER_HOME$/dev/gradle-2.9/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: hamcrest-core-1.3">
+    <library name="Gradle: org.coursera.algs4.algs4:algs4:1.0">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/" />
+        <root url="jar://$USER_HOME$/dev/gradle-2.9/caches/modules-2/files-2.1/org.coursera.algs4.algs4/algs4/1.0/8937251c411badca66034e0b93a18e1ab2ef72e5/algs4-1.0.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/" />
+        <root url="jar://$USER_HOME$/dev/gradle-2.9/caches/modules-2/files-2.1/org.coursera.algs4.algs4/algs4/1.0/8937251c411badca66034e0b93a18e1ab2ef72e5/algs4-1.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: junit-4.11">
+    <library name="Gradle: org.coursera.algs4.stdlib:stdlib:1.0">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar!/" />
+        <root url="jar://$USER_HOME$/dev/gradle-2.9/caches/modules-2/files-2.1/org.coursera.algs4.stdlib/stdlib/1.0/2239693fdc16171a5b7b5b95477cf0ac564bf0b2/stdlib-1.0.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/" />
+        <root url="jar://$USER_HOME$/dev/gradle-2.9/caches/modules-2/files-2.1/org.coursera.algs4.stdlib/stdlib/1.0/2239693fdc16171a5b7b5b95477cf0ac564bf0b2/stdlib-1.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: stdlib-1.0">
+    <library name="Gradle: org.hamcrest:hamcrest-core:1.3">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.coursera.algs4.stdlib/stdlib/1.0/2239693fdc16171a5b7b5b95477cf0ac564bf0b2/stdlib-1.0.jar!/" />
+        <root url="jar://$USER_HOME$/dev/gradle-2.9/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.coursera.algs4.stdlib/stdlib/1.0/2239693fdc16171a5b7b5b95477cf0ac564bf0b2/stdlib-1.0.jar!/" />
+        <root url="jar://$USER_HOME$/dev/gradle-2.9/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/" />
       </SOURCES>
     </library>
-  </component>
-  <component name="org.twodividedbyzero.idea.findbugs">
-    <option name="annotationTypeSettings">
-      <map>
-        <entry key="ExpPriority" value="-16777216;-1;-8355712;WAVE_UNDERSCORE;0;" />
-        <entry key="HighPriority" value="-65536;-1;-65536;WAVE_UNDERSCORE;1;" />
-        <entry key="IgnorePriority" value="-16777216;-1;-8650628;WAVE_UNDERSCORE;0;" />
-        <entry key="LowPriority" value="-16777216;-1;-16711936;BOXED;0;" />
-        <entry key="NormalPriority" value="-16777216;-1;-5066240;WAVE_UNDERSCORE;2;" />
-      </map>
-    </option>
-    <option name="_basePreferences">
-      <map>
-        <entry key="property.analysisEffortLevel" value="default" />
-        <entry key="property.analyzeAfterCompile" value="false" />
-        <entry key="property.annotationGutterIconEnabled" value="true" />
-        <entry key="property.annotationSuppressWarningsClass" value="edu.umd.cs.findbugs.annotations.SuppressFBWarnings" />
-        <entry key="property.annotationTextRangeMarkupEnabled" value="true" />
-        <entry key="property.exportAsHtml" value="true" />
-        <entry key="property.exportAsXml" value="true" />
-        <entry key="property.exportBaseDir" value="" />
-        <entry key="property.exportCreateArchiveDir" value="false" />
-        <entry key="property.exportOpenBrowser" value="true" />
-        <entry key="property.minPriorityToReport" value="Medium" />
-        <entry key="property.runAnalysisInBackground" value="false" />
-        <entry key="property.showHiddenDetectors" value="false" />
-        <entry key="property.toolWindowGroupBy" value="BugRank" />
-        <entry key="property.toolWindowToFront" value="true" />
-      </map>
-    </option>
-    <option name="_detectors">
-      <map>
-        <entry key="AbnormalFinallyBlockReturn" value="true" />
-        <entry key="AbstractClassEmptyMethods" value="true" />
-        <entry key="AbstractOverriddenMethod" value="true" />
-        <entry key="AppendingToAnObjectOutputStream" value="true" />
-        <entry key="ArrayBasedCollections" value="true" />
-        <entry key="ArrayWrappedCallByReference" value="true" />
-        <entry key="AtomicityProblem" value="true" />
-        <entry key="BackportReusePublicIdentifiers" value="true" />
-        <entry key="BadAppletConstructor" value="false" />
-        <entry key="BadResultSetAccess" value="true" />
-        <entry key="BadSyntaxForRegularExpression" value="true" />
-        <entry key="BadUseOfReturnValue" value="true" />
-        <entry key="BadlyOverriddenAdapter" value="true" />
-        <entry key="BogusExceptionDeclaration" value="true" />
-        <entry key="BooleanReturnNull" value="true" />
-        <entry key="BuildInterproceduralCallGraph" value="false" />
-        <entry key="BuildObligationPolicyDatabase" value="true" />
-        <entry key="CallToUnsupportedMethod" value="false" />
-        <entry key="CalledMethods" value="true" />
-        <entry key="CheckCalls" value="false" />
-        <entry key="CheckExpectedWarnings" value="false" />
-        <entry key="CheckImmutableAnnotation" value="true" />
-        <entry key="CheckRelaxingNullnessAnnotation" value="true" />
-        <entry key="CheckTypeQualifiers" value="true" />
-        <entry key="CircularDependencies" value="true" />
-        <entry key="CloneIdiom" value="true" />
-        <entry key="CloneUsability" value="true" />
-        <entry key="CollectMethodsReturningImmutableCollections" value="true" />
-        <entry key="CollectStatistics" value="true" />
-        <entry key="CollectionNamingConfusion" value="true" />
-        <entry key="CommonsEqualsBuilderToEquals" value="true" />
-        <entry key="CommonsHashcodeBuilderToHashcode" value="true" />
-        <entry key="CommonsStringBuilderToString" value="true" />
-        <entry key="ComparatorIdiom" value="true" />
-        <entry key="CompareClassNameEquals" value="true" />
-        <entry key="ConfusedInheritance" value="true" />
-        <entry key="ConfusingArrayAsList" value="true" />
-        <entry key="ConfusingAutoboxedOverloading" value="true" />
-        <entry key="ConfusingFunctionSemantics" value="true" />
-        <entry key="ConfusionBetweenInheritedAndOuterMethod" value="true" />
-        <entry key="ConstantListIndex" value="true" />
-        <entry key="ContraVariantArrayAssignment" value="true" />
-        <entry key="CopiedOverriddenMethod" value="true" />
-        <entry key="CrossSiteScripting" value="true" />
-        <entry key="CustomBuiltXML" value="true" />
-        <entry key="CyclomaticComplexity" value="true" />
-        <entry key="DateComparison" value="true" />
-        <entry key="DeclaredRuntimeException" value="true" />
-        <entry key="DefaultEncodingDetector" value="true" />
-        <entry key="DeletingWhileIterating" value="true" />
-        <entry key="DeprecatedTypesafeEnumPattern" value="true" />
-        <entry key="DoInsideDoPrivileged" value="true" />
-        <entry key="DontCatchIllegalMonitorStateException" value="true" />
-        <entry key="DontIgnoreResultOfPutIfAbsent" value="true" />
-        <entry key="DontUseEnum" value="true" />
-        <entry key="DroppedException" value="true" />
-        <entry key="DubiousListCollection" value="true" />
-        <entry key="DubiousSetOfCollections" value="true" />
-        <entry key="DumbMethodInvocations" value="true" />
-        <entry key="DumbMethods" value="true" />
-        <entry key="DuplicateBranches" value="true" />
-        <entry key="EmptyZipFileEntry" value="false" />
-        <entry key="EqualsOperandShouldHaveClassCompatibleWithThis" value="true" />
-        <entry key="ExceptionSoftening" value="true" />
-        <entry key="ExplicitSerialization" value="true" />
-        <entry key="FieldCouldBeLocal" value="true" />
-        <entry key="FieldItemSummary" value="true" />
-        <entry key="FinalParameters" value="true" />
-        <entry key="FinalizerNullsFields" value="true" />
-        <entry key="FindBadCast2" value="true" />
-        <entry key="FindBadForLoop" value="true" />
-        <entry key="FindBugsSummaryStats" value="true" />
-        <entry key="FindCircularDependencies" value="false" />
-        <entry key="FindDeadLocalStores" value="true" />
-        <entry key="FindDoubleCheck" value="true" />
-        <entry key="FindEmptySynchronizedBlock" value="true" />
-        <entry key="FindFieldSelfAssignment" value="true" />
-        <entry key="FindFinalizeInvocations" value="true" />
-        <entry key="FindFloatEquality" value="true" />
-        <entry key="FindFloatMath" value="false" />
-        <entry key="FindHEmismatch" value="true" />
-        <entry key="FindInconsistentSync2" value="true" />
-        <entry key="FindJSR166LockMonitorenter" value="true" />
-        <entry key="FindLocalSelfAssignment2" value="true" />
-        <entry key="FindMaskedFields" value="true" />
-        <entry key="FindMismatchedWaitOrNotify" value="true" />
-        <entry key="FindNakedNotify" value="true" />
-        <entry key="FindNonSerializableStoreIntoSession" value="false" />
-        <entry key="FindNonSerializableValuePassedToWriteObject" value="false" />
-        <entry key="FindNonShortCircuit" value="true" />
-        <entry key="FindNullDeref" value="true" />
-        <entry key="FindNullDerefsInvolvingNonShortCircuitEvaluation" value="true" />
-        <entry key="FindOpenStream" value="true" />
-        <entry key="FindPuzzlers" value="true" />
-        <entry key="FindRefComparison" value="true" />
-        <entry key="FindReturnRef" value="true" />
-        <entry key="FindRoughConstants" value="true" />
-        <entry key="FindRunInvocations" value="true" />
-        <entry key="FindSelfComparison" value="true" />
-        <entry key="FindSelfComparison2" value="true" />
-        <entry key="FindSleepWithLockHeld" value="true" />
-        <entry key="FindSpinLoop" value="true" />
-        <entry key="FindSqlInjection" value="true" />
-        <entry key="FindTwoLockWait" value="true" />
-        <entry key="FindUncalledPrivateMethods" value="true" />
-        <entry key="FindUnconditionalWait" value="true" />
-        <entry key="FindUninitializedGet" value="true" />
-        <entry key="FindUnrelatedTypesInGenericContainer" value="true" />
-        <entry key="FindUnreleasedLock" value="true" />
-        <entry key="FindUnsatisfiedObligation" value="true" />
-        <entry key="FindUnsyncGet" value="true" />
-        <entry key="FindUseOfNonSerializableValue" value="true" />
-        <entry key="FindUselessControlFlow" value="true" />
-        <entry key="FloatingPointLoops" value="true" />
-        <entry key="FormatStringChecker" value="true" />
-        <entry key="FunctionsThatMightBeMistakenForProcedures" value="true" />
-        <entry key="HugeSharedStringConstants" value="true" />
-        <entry key="IDivResultCastToDouble" value="true" />
-        <entry key="ImproperPropertiesUse" value="true" />
-        <entry key="InappropriateToStringUse" value="true" />
-        <entry key="IncompatMask" value="true" />
-        <entry key="InconsistentAnnotations" value="true" />
-        <entry key="InconsistentKeyNameCasing" value="true" />
-        <entry key="IncorrectInternalClassUse" value="true" />
-        <entry key="InefficientIndexOf" value="true" />
-        <entry key="InefficientMemberAccess" value="false" />
-        <entry key="InefficientStringBuffering" value="true" />
-        <entry key="InefficientToArray" value="true" />
-        <entry key="InfiniteLoop" value="true" />
-        <entry key="InfiniteRecursiveLoop" value="true" />
-        <entry key="InheritanceTypeChecking" value="true" />
-        <entry key="InheritanceUnsafeGetResource" value="true" />
-        <entry key="InitializationChain" value="true" />
-        <entry key="InitializeNonnullFieldsInConstructor" value="true" />
-        <entry key="InstantiateStaticClass" value="true" />
-        <entry key="IntCast2LongAsInstant" value="true" />
-        <entry key="InvalidConstantArgument" value="true" />
-        <entry key="InvalidJUnitTest" value="true" />
-        <entry key="IteratorIdioms" value="true" />
-        <entry key="JDBCVendorReliance" value="true" />
-        <entry key="JUnitAssertionOddities" value="true" />
-        <entry key="LazyInit" value="true" />
-        <entry key="LingeringGraphicsObjects" value="true" />
-        <entry key="ListIndexedIterating" value="true" />
-        <entry key="LiteralStringComparison" value="true" />
-        <entry key="LoadOfKnownNullValue" value="true" />
-        <entry key="LocalSynchronizedCollection" value="true" />
-        <entry key="LoggerOddities" value="true" />
-        <entry key="LostExceptionStackTrace" value="true" />
-        <entry key="LostLoggerDueToWeakReference" value="true" />
-        <entry key="ManualArrayCopy" value="true" />
-        <entry key="MethodReturnCheck" value="true" />
-        <entry key="MethodReturnsConstant" value="true" />
-        <entry key="Methods" value="true" />
-        <entry key="MisleadingOverloadModel" value="true" />
-        <entry key="ModifyingUnmodifiableCollection" value="true" />
-        <entry key="MoreDumbMethods" value="true" />
-        <entry key="MultithreadedInstanceAccess" value="true" />
-        <entry key="MutableLock" value="true" />
-        <entry key="MutableStaticFields" value="true" />
-        <entry key="Naming" value="true" />
-        <entry key="NeedlessAutoboxing" value="true" />
-        <entry key="NeedlessCustomSerialization" value="true" />
-        <entry key="NeedlessInstanceRetrieval" value="true" />
-        <entry key="NeedlessMemberCollectionSynchronization" value="true" />
-        <entry key="Noise" value="false" />
-        <entry key="NoiseNullDeref" value="false" />
-        <entry key="NonCollectionMethodUse" value="true" />
-        <entry key="NonFunctionalField" value="true" />
-        <entry key="NonOwnedSynchronization" value="true" />
-        <entry key="NonProductiveMethodCall" value="true" />
-        <entry key="NonRecycleableTaglibs" value="true" />
-        <entry key="NonSymmetricEquals" value="true" />
-        <entry key="NoteAnnotationRetention" value="true" />
-        <entry key="NoteCheckReturnValueAnnotations" value="true" />
-        <entry key="NoteDirectlyRelevantTypeQualifiers" value="true" />
-        <entry key="NoteJCIPAnnotation" value="true" />
-        <entry key="NoteNonNullAnnotations" value="false" />
-        <entry key="NoteNonnullReturnValues" value="false" />
-        <entry key="NoteSuppressedWarnings" value="true" />
-        <entry key="NoteUnconditionalParamDerefs" value="true" />
-        <entry key="NumberConstructor" value="true" />
-        <entry key="OptionalReturnNull" value="true" />
-        <entry key="OrphanedDOMNode" value="true" />
-        <entry key="OverlyConcreteParameter" value="true" />
-        <entry key="OverridingEqualsNotSymmetrical" value="true" />
-        <entry key="OverzealousCasting" value="true" />
-        <entry key="ParallelLists" value="true" />
-        <entry key="PartiallyConstructedObjectAccess" value="true" />
-        <entry key="PoorMansEnum" value="true" />
-        <entry key="PoorlyDefinedParameter" value="true" />
-        <entry key="PossibleConstantAllocationInLoop" value="true" />
-        <entry key="PossibleIncompleteSerialization" value="true" />
-        <entry key="PossibleMemoryBloat" value="true" />
-        <entry key="PossibleUnsuspectedSerialization" value="true" />
-        <entry key="PossiblyRedundantMethodCalls" value="true" />
-        <entry key="PreferZeroLengthArrays" value="true" />
-        <entry key="PublicSemaphores" value="false" />
-        <entry key="QuestionableBooleanAssignment" value="true" />
-        <entry key="ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass" value="true" />
-        <entry key="ReadReturnShouldBeChecked" value="true" />
-        <entry key="RedundantInterfaces" value="true" />
-        <entry key="ReflectionOnObjectMethods" value="true" />
-        <entry key="ReflectiveClasses" value="true" />
-        <entry key="RepeatedConditionals" value="true" />
-        <entry key="ResolveAllReferences" value="false" />
-        <entry key="RuntimeExceptionCapture" value="true" />
-        <entry key="SQLInLoop" value="true" />
-        <entry key="Section508Compliance" value="true" />
-        <entry key="SerializableIdiom" value="true" />
-        <entry key="SideEffectConstructor" value="true" />
-        <entry key="SillynessPotPourri" value="true" />
-        <entry key="SloppyClassReflection" value="true" />
-        <entry key="SluggishGui" value="true" />
-        <entry key="SpoiledChildInterfaceImplementor" value="true" />
-        <entry key="SpuriousThreadStates" value="true" />
-        <entry key="StartInConstructor" value="true" />
-        <entry key="StaticArrayCreatedInMethod" value="true" />
-        <entry key="StaticCalendarDetector" value="true" />
-        <entry key="StaticMethodInstanceInvocation" value="true" />
-        <entry key="StringConcatenation" value="true" />
-        <entry key="SuperfluousInstanceOf" value="true" />
-        <entry key="SuspiciousCloneAlgorithm" value="true" />
-        <entry key="SuspiciousClusteredSessionSupport" value="true" />
-        <entry key="SuspiciousComparatorReturnValues" value="true" />
-        <entry key="SuspiciousGetterSetterUse" value="true" />
-        <entry key="SuspiciousJDKVersionUse" value="false" />
-        <entry key="SuspiciousNullGuard" value="true" />
-        <entry key="SuspiciousThreadInterrupted" value="true" />
-        <entry key="SuspiciousUninitializedArray" value="true" />
-        <entry key="SuspiciousWaitOnConcurrentObject" value="true" />
-        <entry key="SwitchFallthrough" value="true" />
-        <entry key="SyncCollectionIterators" value="true" />
-        <entry key="SynchronizationOnSharedBuiltinConstant" value="true" />
-        <entry key="SynchronizeAndNullCheckField" value="true" />
-        <entry key="SynchronizeOnClassLiteralNotGetClass" value="true" />
-        <entry key="SynchronizingOnContentsOfFieldToProtectField" value="true" />
-        <entry key="TailRecursion" value="true" />
-        <entry key="TestASM" value="false" />
-        <entry key="TestDataflowAnalysis" value="false" />
-        <entry key="TestingGround" value="false" />
-        <entry key="TestingGround2" value="false" />
-        <entry key="TrainFieldStoreTypes" value="true" />
-        <entry key="TrainLongInstantfParams" value="true" />
-        <entry key="TrainNonNullAnnotations" value="true" />
-        <entry key="TrainUnconditionalDerefParams" value="true" />
-        <entry key="TristateBooleanPattern" value="true" />
-        <entry key="URLProblems" value="true" />
-        <entry key="UnboundMethodTemplateParameter" value="true" />
-        <entry key="UncallableMethodOfAnonymousClass" value="true" />
-        <entry key="UnnecessaryMath" value="true" />
-        <entry key="UnnecessaryNewNullCheck" value="true" />
-        <entry key="UnnecessaryStoreBeforeReturn" value="true" />
-        <entry key="UnreadFields" value="true" />
-        <entry key="UnrelatedCollectionContents" value="true" />
-        <entry key="UnrelatedReturnValues" value="true" />
-        <entry key="UnusedParameter" value="true" />
-        <entry key="UseAddAll" value="true" />
-        <entry key="UseCharacterParameterizedMethod" value="true" />
-        <entry key="UseEnumCollections" value="true" />
-        <entry key="UseSplit" value="true" />
-        <entry key="UseToArray" value="true" />
-        <entry key="UseVarArgs" value="true" />
-        <entry key="UselessSubclassMethod" value="false" />
-        <entry key="VarArgsProblems" value="true" />
-        <entry key="VolatileUsage" value="true" />
-        <entry key="WaitInLoop" value="true" />
-        <entry key="WeakExceptionMessaging" value="true" />
-        <entry key="WriteOnlyCollection" value="true" />
-        <entry key="WrongMapIterator" value="true" />
-        <entry key="XMLFactoryBypass" value="true" />
-      </map>
-    </option>
-    <option name="_reportCategories">
-      <map>
-        <entry key="BAD_PRACTICE" value="true" />
-        <entry key="CORRECTNESS" value="true" />
-        <entry key="EXPERIMENTAL" value="true" />
-        <entry key="I18N" value="true" />
-        <entry key="MALICIOUS_CODE" value="true" />
-        <entry key="MT_CORRECTNESS" value="true" />
-        <entry key="PERFORMANCE" value="true" />
-        <entry key="SECURITY" value="true" />
-        <entry key="STYLE" value="true" />
-      </map>
-    </option>
-    <option name="_enabledBundledPluginIds">
-      <set>
-        <option value="com.mebigfatguy.fbcontrib" />
-      </set>
-    </option>
-    <option name="_annotationTypeSettings">
-      <map>
-        <entry key="ExpPriority" value="-16777216;-1;-8355712;WAVE_UNDERSCORE;0;" />
-        <entry key="HighPriority" value="-65536;-1;-65536;WAVE_UNDERSCORE;1;" />
-        <entry key="IgnorePriority" value="-16777216;-1;-8650628;WAVE_UNDERSCORE;0;" />
-        <entry key="LowPriority" value="-16777216;-1;-16711936;BOXED;0;" />
-        <entry key="NormalPriority" value="-16777216;-1;-5066240;WAVE_UNDERSCORE;2;" />
-      </map>
-    </option>
   </component>
 </project>
-

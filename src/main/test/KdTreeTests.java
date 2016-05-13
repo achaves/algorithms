@@ -1,3 +1,4 @@
+import algorithms.KdTree;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;

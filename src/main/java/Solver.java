@@ -141,6 +141,7 @@ public class Solver {
 
     // solve a slider puzzle (given below)
     public static void main(String[] args) {
+        /*
         // create initial board from file
         In in = new In(args[0]);
         int N = in.readInt();
@@ -161,5 +162,14 @@ public class Solver {
             for (Board board : solver.solution())
                 StdOut.println(board);
         }
+        */
+
+        String[] a = {"gold", "ceil", "ecru", "navy", "pink", "pear", "lust", "wine", "palm", "pine", "dust", "silk",
+        "sand", "buff", "coal", "herb", "drab", "rose", "bone", "gray", "cyan", "dusk", "ruby", "plum"};
+
+        Heap.sort(a);
+
+        StdOut.println(a);
+
     }
 }

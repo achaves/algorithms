@@ -1,3 +1,4 @@
+import algorithms.Deque;
 import org.junit.Test;
 
 import java.util.Iterator;

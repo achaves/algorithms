@@ -1,3 +1,5 @@
+import algorithms.BreadthFirstDirectedPaths;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,7 +42,7 @@ public class PointSET {
     }
 
     // all points that are inside the rectangle
-    public Iterable<Point2D> range(RectHV rect) {
+    public Iterable<Point2D> range(BreadthFirstDirectedPaths.RectHV rect) {
         List<Point2D> pointsInRect = new ArrayList<Point2D>();
         for (Point2D p : bst) {
             if (rect.contains(p)) {

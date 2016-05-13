@@ -1,3 +1,6 @@
+import algorithms.*;
+import algorithms.BreadthFirstDirectedPaths;
+
 public class RangeSearchVisualizer {
 
     public static void main(String[] args) {
@@ -53,7 +56,7 @@ public class RangeSearchVisualizer {
             }
 
 
-            RectHV rect = new RectHV(Math.min(x0, x1), Math.min(y0, y1),
+            BreadthFirstDirectedPaths.RectHV rect = new BreadthFirstDirectedPaths.RectHV(Math.min(x0, x1), Math.min(y0, y1),
                     Math.max(x0, x1), Math.max(y0, y1));
             // draw the points
             StdDraw.clear();
